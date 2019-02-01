@@ -23,6 +23,13 @@ public class StudentDemo
    * @param name- the name to assign 
    * @param program - the program to assign 
    */
+  
+    public StudentDemo(String studentID, String name)
+  {
+      this.studentID = studentID;
+      this.name = name;
+  }
+    
   public StudentDemo(String studentID, String name, String program)
   {
       this.studentID = studentID;
